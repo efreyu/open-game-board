@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Game" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--debug --verbose --path $PROJECT_DIR$/gdproject" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gdproject" TARGET_NAME="gdproject" RUN_PATH="$USER_HOME$/.godot-engine/bin/godot.macos.template_debug.dev.arm64.gdproject_4.2.1-stable">
+  <configuration default="false" name="Game" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="--debug --verbose --path $PROJECT_DIR$/gdproject" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gdproject" TARGET_NAME="gdproject" RUN_PATH="$USER_HOME$/.godot-engine/bin/godot.macos.template_debug.dev.arm64.open_game_board_4.2.2-stable">
     <method v="2">
       <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
     </method>
