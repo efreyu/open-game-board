@@ -1,0 +1,73 @@
+{
+    "version": 4,
+    "env": {
+        "additionalIncludePath": [
+            "${workspaceFolder}/thirdparty/godot-cpp/include",
+            "${workspaceFolder}/thirdparty",
+            "${workspaceFolder}/thirdparty/fmt/include",
+            "${workspaceFolder}/thirdparty/magic_enum/include"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "GDNative C++ (GCC)",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "linux-gcc-x64",
+            "includePath": [
+                "${additionalIncludePath}"
+            ],
+            "browse": {
+                "path": [
+                    "${additionalIncludePath}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "GDNative C++ (Clang)",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "linux-clang-x64",
+            "includePath": [
+                "${additionalIncludePath}"
+            ],
+            "browse": {
+                "path": [
+                    "${additionalIncludePath}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "Mac GDNative C++ (Clang)",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "macos-clang-x64",
+            "includePath": [
+                "${additionalIncludePath}"
+            ],
+            "browse": {
+                "path": [
+                    "${additionalIncludePath}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "cppStandard": "c++23"
+        },
+        {
+            "name": "GDNative C++ (MSVC)",
+            "configurationProvider": "ms-vscode.cmake-tools",
+            "intelliSenseMode": "windows-msvc-x64",
+            "includePath": [
+                "${additionalIncludePath}"
+            ],
+            "browse": {
+                "path": [
+                    "${additionalIncludePath}",
+                    "${workspaceFolder}"
+                ]
+            },
+            "cppStandard": "c++23"
+        }
+    ]
+}

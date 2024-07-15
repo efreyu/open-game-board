@@ -1,0 +1,38 @@
+{
+  "BuildIncremental": {
+    "Enabled": false
+  },
+  "ExcludedItems": [
+    ".git*",
+    ".clang*",
+    ".idea",
+    ".vscode",
+    "*.md",
+    "cpp.hint",
+    "/scripts",
+    "extension_api.json",
+    "godot-engine/**/*.md",
+    "godot-engine/**/*.txt",
+    "godot-engine/**/*.py",
+    "godot-engine/**/*.png",
+    "godot-engine/**/*.svg",
+    "godot-engine/**/*.yml",
+    "godot-engine/**/SConstruct",
+    "godot-engine/**/SCsub",
+    "godot-engine/**/.mailmap*",
+    "godot-engine/**/.editorconfig",
+    "godot-engine/**/LICENSE",
+    "!.out*",
+    "!.out/*",
+    "!.out/build/*",
+    "!.godot",
+    "!README.md"
+  ],
+  "Indexing": {
+    "Enabled": true
+  },
+  "Logger": {
+    "EnableVsLogging": false,
+    "LoggingLevel": "Info"
+  }
+}

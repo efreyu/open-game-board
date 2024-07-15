@@ -1,0 +1,31 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cmake",
+            "label": "CMake: build",
+            "command": "build",
+            "targets": [
+                "all"
+            ],
+            "preset": "${command:cmake.activeBuildPresetName}",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake template build task"
+        },
+        {
+            "type": "cmake",
+            "label": "CMake: clean",
+            "command": "clean",
+            "group": "build",
+            "problemMatcher": [],
+            "detail": "CMake template clean task"
+        },
+        {
+            "type": "shell",
+            "label": "Configure godot - development version",
+            "command": "python build_template.py auto vscode",
+            "group": "build"
+        }
+    ]
+}
