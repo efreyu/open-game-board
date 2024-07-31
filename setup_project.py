@@ -259,7 +259,7 @@ def generate_project_file(mode, is_production=False):
 
 
 def main():
-    get_settings()
+    # get_settings()
     parser = argparse.ArgumentParser(
         description='Generate project files and install and compile godot engine and templates.')
     parser.add_argument('mode', default='auto', choices=['auto', 'dev', 'production'],
